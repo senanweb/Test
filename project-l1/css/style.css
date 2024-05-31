@@ -1,0 +1,43 @@
+
+:root {
+    --primary-color:#a40e4c;
+    --secondary-color: #2c2c54;
+    --third-color : #acc3a6;
+    --test-color: #000;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Patua One", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.navbar a {
+    text-decoration: none;
+
+}
+.navbar ul {
+    list-style: none;
+}
+
+
+header {
+    background-color: var(--third-color);
+    height: 100vh;
+}
+header .navbar{
+    background-color: #fff;
+    border-bottom: 1px solid#ccc;
+    position: fixed;
+    width: 100%;
+}
+header .navbar nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    background-color: aqua;
+}

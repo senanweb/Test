@@ -1,1 +1,84 @@
-.header {background-color: red; width: 100px;height: 100px;}
+
+/* main rules */
+body
+{
+    background-color: #888;
+    height: 8000px;
+}
+.container
+{
+    width: 1170px;
+    margin: auto;
+}
+/* main rules */
+/* header */
+.header .slider
+{
+    background-color: #eee;
+    height:400px ;
+}
+.header .navbar
+{
+    background-color: #252f31;
+    color: #fff;
+    overflow: hidden;
+}
+.header .navbar h2{float: left;}
+.header .navbar span{color: gold;}
+.header .navbar ul
+{
+    list-style: none;
+    padding-left: 0;
+    float: right;
+}
+.header .navbar ul li
+{
+    padding-left: 10px;
+    float: left;
+}
+/* header */
+/* features */
+.features{
+    overflow: hidden;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+.features .feat
+{
+    float: left;
+    width: 33.33333%;
+    height: 150px;
+    background-color: #DDD;
+}
+.features .feat h2
+{
+
+}
+/* features */
+/* about */
+.about
+{
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+.about .container
+{
+
+}
+.container .image
+{
+    float: left;
+    width: 40%;
+}
+.container .image img
+{
+    width: 50%;
+    height: 50%;
+}
+.about .info
+{
+    float: left;
+    width: 60%;
+}
+/* about */

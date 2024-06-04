@@ -1,0 +1,67 @@
+
+/* main rules */
+body{ background-color: #ddd; height: 8000px;}
+.container{ width: 1170px; margin: auto;}
+.clearfix{clear: both;}
+/* main rules */
+/* header */
+.header .slider{ background-color: #eee; height:400px ;background-image: url('../img/back1.jpg'); background-size: cover;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;}
+.header .slider .container .intro{ text-align: center;color: gold; padding-top: 200px;}
+.header .slider .container .intro h2 {width: 460px; margin: 0 auto;font-size: 50px; border-top: 3px solid #fff; border-bottom: 3px solid #fff;}
+.header .slider .container .intro button{background: none; color: gold; width: 200px; margin: 20px; font-size: 20px; border: none;}
+.header .navbar{ background-color: #252f31; color: #fff; overflow: hidden;}
+.header .navbar h2{float: left;}
+.header .navbar span{color: gold;}
+.header .navbar ul { list-style: none; padding-left: 0; float: right; margin-top: 25px;}
+.header .navbar ul li{ padding-left: 10px; float: left;}
+.header .navbar ul li a {text-decoration: none; color: #fff;}
+.header .navbar ul li .active a,.header .navbar ul li a:hover{color: gold;}
+/* header */
+
+/* features */
+.features{ overflow: hidden; padding-bottom: 15px;}
+.features .feat{ float: left; width: 33.33333%; height: 250px; background-color: #DDD;}
+.feat h2{color: #444; text-align: justify;}
+.feat p{color: #888;}
+/* features */
+/* -------------------------- */
+/* ================================== */
+/* -------------------------- */
+/* about */
+.about{ background-color: #f2f2f2; overflow: hidden; height: 350px;}
+.container .image{ float: left; width: 25%; }
+.container .image img{ width: 250px; }
+.about .info{ float: left; width: 60%;}
+.info .hobbies{ overflow: hidden; margin: 10px; /* background-color: antiquewhite; */}
+.info .hobbies > div{ float: left; width: 50%; min-height: 100px;}
+/* about */
+/* Skill */
+.skills{ padding-top: 10px; padding-bottom: 10px; overflow: hidden;}
+.skill, .progress { float: left; width: 50%;}
+/* Skill */
+/* Resume */
+.resume{padding-top: 10px; padding-bottom: 10px; background-color: #f2f2f2;overflow: hidden;text-align: center;}
+/* Resume */
+/* Education */
+.education{ padding-top: 10px; padding-bottom: 10px; overflow: hidden;}
+.main, .exp{ float: left; width: 50%;}
+/* Education */
+/* Testimonials */
+.testimonials{padding-top: 10px; padding-bottom: 10px; background-color: #ddd;overflow: hidden;text-align: center;}
+/* Testimonials */
+/* portfolio */
+.portfolio{padding-top: 10px; padding-bottom: 10px;text-align: center;}
+.portfolio .word{overflow: hidden;}
+.portfolio .word > div {float: left;width:33.333333%;margin-bottom: 10px;}
+.portfolio .word img {width: 200px;height: 200px;}
+/* portfolio */
+/* contact */
+.contact{background-color: #252f31;overflow: hidden;}
+.contact h2 {color: #ffffff;}
+.contact p {color: #6A6E71;}
+.contact .info,
+.contact .form {width: 50%;float: left;}
+/* contact */
+/* footer */
+.footer {background-color: #252f31;overflow: hidden; text-align: center; color: gold;padding: 20px;}
+/* footer */

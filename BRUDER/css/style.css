@@ -1,0 +1,22 @@
+
+
+/* @media */
+@media (max-width:767px)
+{
+    p{background-color: red;}
+}
+/*  */
+@media (min-width:768px)
+{
+    p{background-color: rgb(18, 165, 55);}
+}
+/*  */
+@media (min-width:992px)
+{
+    p{background-color: rgb(57, 4, 147);}
+}
+/*  */
+@media (min-width:1200px)
+{
+    p{background-color: rgb(209, 209, 2);}
+}

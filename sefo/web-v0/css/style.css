@@ -1,0 +1,139 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration :none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+
+}
+:root
+{
+    --bg-color: #080808;
+    --second-bg-color: #131313;
+    --text-color: #fff;
+    --main-color:#f84f32;
+}
+html
+{
+    font-size: 60%;
+    overflow-x : hidden;
+}
+ body
+{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+/* header */
+ .head
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 4rem 12% 4rem;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+}
+.logo
+{
+    font-size: 3rem;
+    color: var(--text-color);
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.logo:hover
+{
+    transform: scale(1.1);
+}
+ .logo span
+{
+    text-shadow:  -1px 3px 2px var(--main-color);
+    font-family: "Grey Qo", cursive;
+    font-style: normal;
+}
+.navbar
+{
+
+}
+.navbar a
+{
+    font-size: 1.5rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3 ease;
+    border-bottom: 3px solid transparent;
+}
+.navbar a:hover, .navbar a:active
+{
+    color: var(--main-color);
+    border-bottom: 3px solid var(--main-color);
+}
+/* header */
+/* home */
+section
+{
+    min-height: 100vh;
+    padding: 10rem 12% 10rem;
+}
+.home
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+}
+.contact
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-top: 3rem;
+}
+span
+{
+    color: var(--main-color);
+}
+.logo span
+{
+    color: var(--main-color);
+}
+.home .contact h3
+{
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    font-size: 3.5rem;
+}
+.home .contact h1
+{
+    font-size: 7rem;
+    font-weight: 7rem;
+    margin-top: 1.5rem;
+    line-height: 1;
+}
+.home-mg
+{
+    border-radius: 50%;
+}
+.home-mg img
+{
+    float: left;
+    position: relative;
+    width: 28vw;
+    top: 3rem;
+    border-radius: 50%;
+}
+
+/* home */

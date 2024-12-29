@@ -1,0 +1,15 @@
+-Create E commerce
+-Multi
+-Responsive
+-Php
+-J query
+-PDO for connection
+====================
+What I need
+-Html
+-Css
+-J query
+-Bootstrap
+-PDO
+
+
